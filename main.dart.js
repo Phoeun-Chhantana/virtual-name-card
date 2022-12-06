@@ -57543,7 +57543,7 @@ n.k3=p.b
 n.id=m.d.d
 n.fx=A.ax(["telegram",J.y4(l.f,0)],o,t.T)
 n.as=m.e.b
-B.uG.G9(window,A.dq(new A.a04().Hm(n),0,null).h(0),m.e.b)
+B.uG.G9(window,"data:text/x-vcard;urlencoded, "+A.dq(new A.a04().Hm(n),0,null).h(0),m.e.b)
 return A.X(null,r)}})
 return A.Y($async$$0,r)},
 $S:7}
