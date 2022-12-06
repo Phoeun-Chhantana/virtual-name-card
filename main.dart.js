@@ -57311,7 +57311,8 @@ $S:6}
 A.a2p.prototype={
 $0(){var s=0,r=A.Z(t.H)
 var $async$$0=A.a_(function(a,b){if(a===1)return A.W(b,r)
-while(true)switch(s){case 0:return A.X(null,r)}})
+while(true)switch(s){case 0:window.location.href="itms-apps://apps.apple.com/us/app/calculator/id1069511488"
+return A.X(null,r)}})
 return A.Y($async$$0,r)},
 $S:6}
 A.a6D.prototype={
