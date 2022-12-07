@@ -1,0 +1,12 @@
+html,
+body{
+    background-color: transparent;
+}
+
+.fa-address-card{
+  height: 100vh;
+  display: flex;
+  color: #787878;
+  align-items: center;
+  justify-content: center;
+}
