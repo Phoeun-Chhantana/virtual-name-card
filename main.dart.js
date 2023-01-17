@@ -70558,17 +70558,25 @@ break
 case 5:return A.S(null,r)
 case 1:return A.R(p,r)}})
 return A.T($async$mk,r)},
-H(a){var s,r,q,p=this,o=null,n=a.L(t.w).f,m=A.lf(A.di("Company Information",o,o,o,A.as(a).RG.r,o,o),o,o),l=$.by,k=(l==null?$.by=$.dU():l).dl(0,"[DEFAULT]")
-A.bO(k,$.dp(),!0)
-l=A.Xr(new A.cG(k))
-s=p.k1
-r=t.V
-q=t.F
-q=A.ao0(A.a([m,B.kV,new A.hS(A.N9(l,l.go7().i6("company")).hH(0),new A.a9U(p),o,o,t.em),B.kV,A.jF(A.a([new A.EQ(A.cN(A.lf(A.apo(new A.fh(p.ax,new A.a9V(p),B.Pu,o,t.zB),new A.a9W(p,a),o),o,o),150,150),B.D_,B.xH,B.La,o),A.anF(A.jF(A.a([A.dE(p.x,B.BC,o,o,o,o,new A.aa2()),A.dE(p.y,B.nx,A.a([s],r),B.eL,1,o,new A.aa3(p)),A.dE(p.z,B.nw,A.a([s],r),B.eL,1,o,new A.aa4(p)),A.dE(p.Q,B.Bz,o,B.M1,o,o,new A.aa5()),A.dE(p.as,B.nv,o,B.M_,1,o,new A.aa6()),A.dE(p.at,B.BB,o,B.M0,1,o,new A.aa7())],q),B.aT,B.aE),p.fx)],q),B.aT,B.aE),B.KU,A.jF(A.a([A.di("Employee Information",o,o,o,A.as(a).RG.r,o,o),B.kV,A.anF(A.jF(A.a([A.dE(p.cx,B.By,o,o,1,o,new A.aa8()),A.dE(p.db,B.nx,A.a([s],r),B.eL,1,o,new A.aa9(p)),A.dE(p.dx,B.nw,A.a([s],r),B.eL,1,o,new A.a9X(p)),A.dE(p.cy,B.nv,o,o,1,o,new A.a9Y()),A.dE(p.dy,B.Bx,o,o,1,o,new A.a9Z())],q),B.aT,B.aE),p.fr),new A.cT(B.dL,A.apo(B.Pz,new A.aa_(p,a),o),o),new A.fh(p.CW,new A.aa0(p),B.T,o,t.ve),B.KW],q),B.aT,B.aE)],q),B.dL)
-n=n.e.d===0
-m=n&&!0
-n=n?38:0
-return A.akb(o,q,A.apL(A.cN(A.apW(B.nu,B.wU,new A.aa1(p,a)),n,o),m),B.yM)}}
+H(a){var s,r,q,p,o,n,m,l=this,k=null,j=t.w,i=a.L(j).f
+j=a.L(j).f
+s=A.lf(A.di("Company Information",k,k,k,A.as(a).RG.r,k,k),k,k)
+r=$.by
+q=(r==null?$.by=$.dU():r).dl(0,"[DEFAULT]")
+A.bO(q,$.dp(),!0)
+r=A.Xr(new A.cG(q))
+r=A.N9(r,r.go7().i6("company")).hH(0)
+j=j.a.a>=768
+p=j?350:150
+j=j?350:150
+o=l.k1
+n=t.V
+m=t.F
+m=A.ao0(A.a([s,B.kV,new A.hS(r,new A.a9U(l),k,k,t.em),B.kV,A.jF(A.a([new A.EQ(A.cN(A.lf(A.apo(new A.fh(l.ax,new A.a9V(l),B.Pu,k,t.zB),new A.a9W(l,a),k),k,k),p,j),B.D_,B.xH,B.La,k),A.anF(A.jF(A.a([A.dE(l.x,B.BC,k,k,k,k,new A.aa2()),A.dE(l.y,B.nx,A.a([o],n),B.eL,1,k,new A.aa3(l)),A.dE(l.z,B.nw,A.a([o],n),B.eL,1,k,new A.aa4(l)),A.dE(l.Q,B.Bz,k,B.M1,k,k,new A.aa5()),A.dE(l.as,B.nv,k,B.M_,1,k,new A.aa6()),A.dE(l.at,B.BB,k,B.M0,1,k,new A.aa7())],m),B.aT,B.aE),l.fx)],m),B.aT,B.aE),B.KU,A.jF(A.a([A.di("Employee Information",k,k,k,A.as(a).RG.r,k,k),B.kV,A.anF(A.jF(A.a([A.dE(l.cx,B.By,k,k,1,k,new A.aa8()),A.dE(l.db,B.nx,A.a([o],n),B.eL,1,k,new A.aa9(l)),A.dE(l.dx,B.nw,A.a([o],n),B.eL,1,k,new A.a9X(l)),A.dE(l.cy,B.nv,k,k,1,k,new A.a9Y()),A.dE(l.dy,B.Bx,k,k,1,k,new A.a9Z())],m),B.aT,B.aE),l.fr),new A.cT(B.dL,A.apo(B.Pz,new A.aa_(l,a),k),k),new A.fh(l.CW,new A.aa0(l),B.T,k,t.ve),B.KW],m),B.aT,B.aE)],m),B.dL)
+j=i.e.d===0
+i=j&&!0
+j=j?38:0
+return A.akb(k,m,A.apL(A.cN(A.apW(B.nu,B.wU,new A.aa1(l,a)),j,k),i),B.yM)}}
 A.aaa.prototype={
 $1(a){},
 $S:13}
