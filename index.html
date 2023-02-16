@@ -38,7 +38,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2684026031';
+    var serviceWorkerVersion = '1865953149';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -55,6 +55,9 @@
       }).then(function(engineInitializer) {
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {
+        const icon = document.getElementsByClassName("fa-solid fa-address-card fa-3x")[0];
+        //icon.style.display = "none";
+        icon.remove();
         return appRunner.runApp();
       });
     });
