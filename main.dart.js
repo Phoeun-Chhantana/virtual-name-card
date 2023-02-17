@@ -77326,7 +77326,7 @@ s=this.a
 return new A.fB(s.id,new A.aev(s,b,c),null,null,t.D0)},
 $S:458}
 A.aev.prototype={
-$3(a,b,c){var s=null,r=this.a,q=A.ie(s,B.vl,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,"Organization name",s,s,s,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,A.fe(!1,A.Fk(50),!0,B.Dp,s,!0,s,s,s,s,s,s,s,s,s,new A.aek(r),s,s,s,s),s,s,s,s),p=this.b
+$3(a,b,c){var s=null,r=this.a,q=A.ie(s,B.vl,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,"Name of the company",s,s,s,s,!1,s,s,s,s,s,s,s,s,s,s,s,s,A.fe(!1,A.Fk(50),!0,B.Dp,s,!0,s,s,s,s,s,s,s,s,s,new A.aek(r),s,s,s,s),s,s,s,s),p=this.b
 r.w=p
 return A.avM(!0,B.bh,!1,s,A.ayD(),p,s,s,s,2,q,!0,s,!0,s,!1,this.c,s,r.fy,s,s,s,s,1,s,s,!1,"\u2022",new A.ael(),s,new A.aem(r),s,s,b,s,s,B.hx,s,s,s,s,s,s,s,B.aS,s,B.lT,s,s,s)},
 $S:459}
@@ -77484,7 +77484,7 @@ A.aen.prototype={
 $3(a,b,c){return B.Sp},
 $S:142}
 A.aeS.prototype={
-$1(a){if(a.length===0)return"Organization description required"
+$1(a){if(a.length===0)return"Company description required"
 return null},
 $S:19}
 A.aeZ.prototype={
@@ -77501,18 +77501,18 @@ if(s)return"Invalid phone number"
 return null},
 $S:19}
 A.af0.prototype={
-$1(a){if(a.length===0)return"Organization address required"
+$1(a){if(a.length===0)return"Company address required"
 return null},
 $S:19}
 A.af1.prototype={
 $1(a){var s
-if(a.length===0)return"Organization email required"
+if(a.length===0)return"Company email required"
 else{s=$.as7().b
 if(!s.test(a))return"Invalid Email"}return null},
 $S:19}
 A.af2.prototype={
 $1(a){var s
-if(a.length===0)return"Organization website required"
+if(a.length===0)return"Company website required"
 else{s=$.as9().b
 if(!s.test(a))return"Invalid website"}return null},
 $S:19}
@@ -77964,7 +77964,8 @@ A.Uy.prototype={}
 A.mu.prototype={
 a7(){return new A.RA(B.i)}}
 A.RA.prototype={
-G(a){var s=null,r=A.ap1(s,s,B.Sj),q=t.p,p=A.oY(A.a([B.Dn,B.NH,A.cy("Virtual Name card",s,s,s,A.a4(a).p3.r,s,s)],q),B.V,B.v1,B.as),o=A.Fk(8),n=A.a([new A.dY(12,B.cN,A.ay(20,0,0,0),B.h,12)],t.sq),m=A.tZ(),l=this.a
+aw(){this.aK()},
+G(a){var s=null,r=A.ap1(s,s,B.Sj),q=t.p,p=A.oY(A.a([B.Dn,B.NH,A.cy("Virtual Name card",s,s,s,A.a4(a).p3.r,s,s)],q),B.V,B.v1,B.as),o=A.Fk(8),n=A.a([new A.dY(12,B.cN,A.ay(12,0,0,0),B.h,32)],t.sq),m=A.tZ(),l=this.a
 n=A.lF(A.f5(s,new A.yS(250,m.EV(0,A.a7(["company",l.c,"staff",l.d],t.N,t.z)).k(0),3,!0,new A.ox(A.jC(this.a.e,0,s).k(0),1,s),s),B.o,s,s,new A.e6(B.k,s,s,o,n,s,B.aU),s,s,s,B.d1,s),s,s)
 o=A.acw(s,s,A.ay(25,96,125,139),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)
 return A.aqd(r,B.ny,A.c1(A.fK(A.a([p,B.lJ,new A.c7(B.d1,n,s),B.lJ,new A.Tf(new A.ajU(this),s,s,s,o,B.o,s,!1,s,new A.Tg(B.Sq,B.Do,s),s)],q),B.V,B.v1,B.as),s,1/0),s,s)}}
