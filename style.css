@@ -1,12 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 html,
 body{
     background-color: transparent;
 }
 
-.fa-address-card{
-  height: 100vh;
-  display: flex;
-  color: #787878;
-  align-items: center;
-  justify-content: center;
+.splash{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }

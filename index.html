@@ -25,20 +25,25 @@
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="virtual_name_card">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CardCity">
+  <meta name="theme-color" content="#FFFFFF">
+<!--  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF">-->
+<!--  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">-->
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="favicon32.png"/>
 
-  <title>virtual_name_card</title>
+  <title>Card City</title>
   <link rel="manifest" href="manifest.json">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '2934605889';
+    var serviceWorkerVersion = "1120292813";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -47,7 +52,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.5/croppie.min.js"></script>
 </head>
 <body>
-  <i class="fa-solid fa-address-card fa-3x"></i>
+<!--  <i class="fa-solid fa-address-card fa-3x"></i>-->
+  <img class="splash" src="logo.svg"/>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -58,7 +64,7 @@
       }).then(function(engineInitializer) {
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {
-        const icon = document.getElementsByClassName("fa-solid fa-address-card fa-3x")[0];
+        const icon = document.getElementsByClassName("splash")[0];
         //icon.style.display = "none";
         icon.remove();
         return appRunner.runApp();
